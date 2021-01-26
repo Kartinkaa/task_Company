@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company</title>
+    <link href="./style.css" rel="stylesheet">
+    <script defer src="scripts/Employee.js"></script>
+    <script defer src="scripts/Company.js"></script>
+    <script defer src="scripts/script.js"></script>
+</head>
+<body>
+<div class="form">
+    <div class="forms">
+        <label for="firstName">First name: </label>
+        <input id="firstName" type="text" autocomplete='off'>
+    </div>
+    <div class="forms">
+        <label for="lastName">Last name: </label>
+        <input id="lastName" type="text" autocomplete="off">
+    </div>
+    <div class="forms">
+        <label for="age">Age: </label>
+        <input id="age" type="number" min="0">
+    </div>
+    <div class="forms">
+        <label for="salary">Salary: </label>
+        <input id="salary" type="number" min="0">
+    </div>
+</div>
+<div>
+    <button id="addPerson">Add person</button>
+    <button id="showCompany">Show company</button>
+    <button id="calcStats">Get stats</button>
+</div>
+<div id="stats">
+    <h2>Stats</h2>
+</div>
+<div>
+    <h2>Employees</h2>
+    <ol id="personsList"></ol>
+</div>
+</body>
+</html>

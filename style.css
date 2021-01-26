@@ -1,0 +1,17 @@
+body {
+    background-color: aliceblue;
+
+}
+
+
+.form {
+    height: 10rem;
+    width: 20rem;
+    border: black 1px;
+}
+
+.forms{
+    margin: 1rem .3rem .3rem 2rem;
+
+}
+
